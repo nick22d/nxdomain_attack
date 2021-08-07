@@ -10,8 +10,12 @@ To clone the repository locally:
 ```
 git clone https://github.com/nick22d/nxdomain_attack.git
 ```
+To navigate into the repository:
+```
+cd nxdomain_attack/ 
+```
 
-cd ..
+cd nxdomain_attack/
 chmod u+x nxdomain_attack.sh
 ./nxdomain_attack.sh
 
