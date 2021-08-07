@@ -8,7 +8,7 @@ To use this script follow the instructions below.
 
 To clone the repository locally:
 ```
-git clone 
+git clone https://github.com/nick22d/nxdomain_attack.git
 ```
 
 cd ..
