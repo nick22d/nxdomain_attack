@@ -1,5 +1,5 @@
 # nxdomain_attack
-This is a bash script designed to carry out an NXDOMAIN attack.
+This is a bash script designed to carry out an NXDOMAIN attack, and more specifically, the random subdomain attack variant.
 
 
 # Usage
