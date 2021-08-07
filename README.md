@@ -14,7 +14,10 @@ To navigate into the repository:
 ```
 cd nxdomain_attack/ 
 ```
-
+To make the script executable:
+```
+chmod u+x nxdomain_attack.sh
+```
 cd nxdomain_attack/
 chmod u+x nxdomain_attack.sh
 ./nxdomain_attack.sh
