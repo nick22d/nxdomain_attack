@@ -18,9 +18,10 @@ To make the script executable:
 ```
 chmod u+x nxdomain_attack.sh
 ```
-cd nxdomain_attack/
-chmod u+x nxdomain_attack.sh
+To run the script:
+```
 ./nxdomain_attack.sh
+```
 
 - Supply the apex domain of the target domain (i.e. example.com).
 - Specify the desired number of lookup requests.
