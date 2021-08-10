@@ -1,5 +1,5 @@
 #!/bin/bash
-### Description: The purpose of this script is to perform an NXDOMAIN attack against the target
+### Description: The purpose of this script is to perform an NXDOMAIN attack against a target domain
 ### Author: Nicholas Doropoulos
 ### Date of Creation: 07/08/2021
 
