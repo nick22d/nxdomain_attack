@@ -1,5 +1,5 @@
 # nxdomain_attack
-This is a bash script designed to carry out an NXDOMAIN attack, and more specifically, the Random Subdomain attack variant.
+This is a bash script designed to carry out an NXDOMAIN attack, and more specifically, the Random Subdomain attack variant. This is a DNS-based Denial of Service attack which aims at disrupting the availability of a DNS server by flooding it with requests for invalid or nonexistent records.
 
 
 # Usage
